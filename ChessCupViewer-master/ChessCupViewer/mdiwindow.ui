@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mdiWindow</class>
+ <widget class="QMainWindow" name="mdiWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <attribute name="headerDefaultSectionSize">
+     <number>89</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>FIO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Partners</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Emelyanov</string>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="text">
+       <string>0.5</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>23434</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>535</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
